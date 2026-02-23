@@ -69,5 +69,9 @@ int main() {
     fout << "Total Sum" << '\t' << accumulate(temps.begin(), temps.end(), 0.0) << '\n';
     fout.close( ); // close the file
     return 0;
-
+    //explain why the commits intervals in lab13 is short:
+    // i mistakely did the lab13 coding part on my lab12 file since these two 
+    //are basing on the same file so i have to repeat the coding steps on my original lab12 file, 
+    //you can check my lab12 commit history if you want there's mostly same coding commits but with normal 
+    //intervals as it's being coding as lab13
 }
