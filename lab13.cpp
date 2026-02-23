@@ -51,7 +51,7 @@ int main() {
 
     // find an element
     double target = 75.0;   // search target
-    vector<double, DAYS>::iterator it;  // declare iterator to point to the found element
+    vector<double>::iterator it;  // declare iterator to point to the found element
     it = find(temps.begin(), temps.end(), target);
     cout << "10. Value " << target;
     if (it != temps.end())
