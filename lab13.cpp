@@ -60,6 +60,8 @@ int main() {
         cout << " was not found.\n";
     if (it != temps.end()) cout << "    Value: " << *it << endl;
      
+    cout << "11. Element 2 : " << temps.at(2) << endl;
+    cout << "12. Element 2 : " << temps[2] << endl;
     ofstream fout; 
     fout.open("Report.txt");
     fout << "Maximum" << '\t' << *max_element(temps.begin(), temps.end()) << '\n';
